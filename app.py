@@ -335,8 +335,6 @@ while True:
 
 from textblob import TextBlob
 
-pip install symspellpy
-
 
 
 from symspellpy import SymSpell, Verbosity
