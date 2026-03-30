@@ -1,0 +1,5 @@
+symspellpy
+nltk
+tensorflow
+numpy
+textblob
