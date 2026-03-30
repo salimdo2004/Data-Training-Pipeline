@@ -1,0 +1,44 @@
+{
+
+   "intents":
+   [
+      {
+         "intent":"salutations",
+         "questions":["Bonjour","Salut","Bonsoir","Coucou","Hello","Hi","Salut ça va ?","Comment allez-vous ?","Yo","Vous êtes disponible ?","Salut le bot !","Hey, qui es-tu ?","Tu peux m'aider ?","J'aimerais des infos","Que pouvez-vous faire ?","Bonne journée","Bonsoir, êtes-vous là ?","Salut assistant","Hello, besoin d'aide","Hey"],
+         "responses":["👋 Bonjour ! Comment puis-je vous aider aujourd'hui ?","Salut ! 😊 Que puis-je faire pour vous ?","Bonsoir 🌙 ! Besoin d'un renseignement ?","Hello 👋 ! Dites-m’en plus.","Bienvenue ! Comment puis-je vous assister ?","Salut 🙌 Je suis là pour vous guider.","Coucou 👋 Posez-moi vos questions.","Hello 😊 Je suis votre assistant.","Salut 😃 Vous souhaitez découvrir nos services ?"]},
+      {
+         "intent":"remerciements",
+         "questions":["Merci","Merci beaucoup","Je vous remercie","C'est gentil","Merci infiniment","Merci pour votre aide","Merci pour tout","Merci pour les infos","Merci du fond du cœur","Un grand merci","Merci pour votre temps","Merci pour la réponse","Merci pour votre patience","Merci pour votre disponibilité","Merci pour votre attention","Merci, c’est parfait","Merci à vous","Merci encore","Merci pour votre soutien","Merci pour votre compréhension"],
+         "responses":["Avec plaisir ! 😊","Je suis ravi de vous aider 🙌","C'est un plaisir de vous assister 🌟","Je suis là pour ça 🤗","Content d'avoir pu vous aider 👋","Toujours heureux d’aider 😊","N'hésitez pas si besoin 🙌","Ravi d'avoir pu vous accompagner 🤗","Bonne journée 🌞"]},
+      {
+         "intent":"aide",
+         "questions":["Peux-tu m'aider ?","Comment ça marche ?","Que peux-tu faire ?","Comment utiliser ce service ?","Quels services offres-tu ?","Comment bénéficier de ton aide ?","Quelles sont tes fonctionnalités ?","Comment fonctionne cette application ?","Que puis-je attendre de toi ?","Comment poser une question ?","Quels types de questions puis-je te poser ?","Comment obtenir de l'aide ?","Quelles infos peux-tu donner ?","Comment interagir avec toi ?","Quels sont tes domaines ?","Comment commencer ?","Que dois-je savoir ?","Quels conseils peux-tu donner ?","Comment utiliser tes fonctionnalités ?","Quelles sont les étapes pour utiliser ce service ?"],
+         "responses":["Je suis là pour vous aider 😊","Posez-moi votre question 🙌","Je peux vous fournir des informations 🌟","Je vous guide avec plaisir 🤗","Expliquez-moi ce dont vous avez besoin 👍","Je suis prêt à vous accompagner 🙌","Demandez-moi ce que vous voulez savoir 😊","Je peux répondre à vos questions 🌞","Dites-moi comment je peux vous aider 😊"]
+      },
+      {
+         "intent":"about_bot",
+         "questions":["Qui es-tu ?","C'est quoi ce chatbot ?","Présente-toi","Tu es humain ?","Tu es une IA ?","Quel est ton rôle ?","Pourquoi tu existes ?","Quel est ton objectif ?","Explique-moi qui tu es","Tu fais quoi exactement ?","Tu es développé par qui ?","Comment tu fonctionnes ?","Tu utilises l’intelligence artificielle ?","Tu es un assistant virtuel ?","Tu es automatique ?","Tu es un robot ?","Tu es intelligent ?","Tu apprends des utilisateurs ?","Tu es disponible 24h/24 ?","C’est quoi ton nom ?"],
+         "responses":["Je suis un chatbot intelligent conçu pour répondre à vos questions.","Je suis un assistant virtuel basé sur l’intelligence artificielle.","Mon rôle est de vous aider rapidement et efficacement.","Je suis un programme automatique capable de comprendre vos demandes.","Je suis développé pour faciliter l’accès aux informations.","Je fonctionne grâce au traitement du langage naturel (NLP).","Je suis disponible 24h/24 pour vous assister.","Mon objectif est de simplifier votre expérience.","Je suis une IA entraînée pour comprendre et répondre aux utilisateurs."]
+      },
+      {
+         "intent":"goodbye",
+         "questions":["Au revoir","À bientôt","Bye","Bonne journée","À plus tard","Ciao","On se voit","Merci au revoir","Bonne soirée","À demain","Je dois partir","Fin de discussion","On arrête ici","C’est tout","Merci pour tout","Je reviens plus tard","À la prochaine","Je quitte","À une autre fois","Salut"],
+         "responses":["Au revoir et à bientôt !","Merci pour votre visite.","À très bientôt !","Bonne journée à vous !","N’hésitez pas à revenir.","Je reste disponible si besoin.","Merci et à la prochaine.","À bientôt et prenez soin de vous.","Ce fut un plaisir de vous aider."]
+      },
+      {
+         "intent":"features",
+         "questions":["Quelles sont tes fonctionnalités ?","Que peux-tu faire ?","Tu sais faire quoi ?","Quels services proposes-tu ?","Tu peux répondre à quelles questions ?","Tu peux aider comment ?","Donne-moi tes capacités","Tu fais quoi exactement ?","Tu peux analyser des données ?","Tu peux donner des conseils ?","Tu peux résoudre des problèmes ?","Tu es rapide ?","Tu comprends toutes les langues ?","Tu peux guider les utilisateurs ?","Tu peux assister les clients ?","Tu peux expliquer des concepts ?","Tu peux répondre aux questions fréquentes ?","Tu peux orienter vers le support ?","Tu peux traiter plusieurs demandes ?","Tu es intelligent ?"],
+         "responses":["Je peux répondre à vos questions rapidement.","Je peux vous guider et vous assister dans vos demandes.","Je suis capable d’analyser et comprendre vos messages.","Je peux fournir des informations précises.","Je peux vous orienter vers les bons services.","Je peux résoudre des questions fréquentes.","Je peux assister les clients 24h/24.","Je peux expliquer différents sujets simplement.","Je peux automatiser l’assistance et améliorer l’expérience utilisateur."]
+      },
+      {  
+         "intent":"contact",
+         "questions":["Comment vous contacter ?","Quel est votre email ?","Je veux contacter le support","Service client ?","Comment parler à un agent ?","Avez-vous un numéro de téléphone ?","Où vous trouver ?","Comment envoyer un message ?","Puis-je parler à un responsable ?","Comment obtenir de l’aide humaine ?","Je veux envoyer une réclamation","Comment faire une demande officielle ?","Puis-je vous écrire ?","Contactez-moi","Besoin du support","Assistance humaine","Support technique","Comment joindre l’équipe ?","Y a-t-il un formulaire de contact ?","Je veux parler à quelqu’un"],
+         "responses":["Vous pouvez contacter notre support par email.","Notre équipe est disponible via le formulaire de contact.","Le service client est prêt à vous assister.","Vous pouvez nous envoyer un message directement.","Notre support technique est à votre disposition.","Un agent peut vous répondre rapidement.","Nous sommes disponibles pour toute assistance.","Vous pouvez nous joindre via nos canaux officiels.","Notre équipe vous répondra dans les plus brefs délais."]
+      },
+      {
+         "intent":"technical_issue",
+         "questions":["Ça ne marche pas","Il y a une erreur","Bug","Problème technique","L’application ne fonctionne pas","Erreur de connexion","Je ne peux pas me connecter","Le site est bloqué","Page blanche","Le système est lent","Problème de serveur","Erreur 404","Erreur 500","Impossible d’accéder","Ça plante","Problème de chargement","Le bouton ne fonctionne pas","Je ne reçois pas de réponse","Problème avec mon compte","Application bloquée"],
+         "responses":["Nous sommes désolés pour le problème rencontré.","Veuillez réessayer après quelques instants.","Merci de vérifier votre connexion internet.","Notre équipe technique est en train d’analyser le problème.","Nous vous recommandons d’actualiser la page.","Merci de nous signaler ce bug.","Nous travaillons pour résoudre ce problème rapidement.","Veuillez vider le cache de votre navigateur.","Le support technique peut vous assister davantage."]
+      }  
+
+         ]}
